@@ -1,0 +1,373 @@
+body{
+	font-family: 'Lora';
+	background-image: url(curtain.png);
+	background-size: cover;	
+	background-attachment: fixed;
+	position: relative;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	color: #af040c ;
+	font-family: "Limelight";
+	font-size: 4vh;
+	text-align: center;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+}
+h3 {
+	color: #af040c ;
+	font-family: "Limelight";
+	font-style: italic;
+	font-size: 3vh;
+}
+h5 {
+	font-style: italic;
+}
+.container {
+  padding-right: 1.3vh;
+  padding-left: 1.3vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row{
+	margin-bottom: 1.9vh;
+	margin-top : 1.9vh;
+	border-radius: 6px;
+}
+.row a {
+	text-decoration: none;
+	color: black;
+}
+.row a:hover {
+	color: #e6121a;
+	font-weight: bold;
+}
+img{
+	width : 31.4vh;
+	height: 39.3vh;
+	margin: auto;
+}
+
+	/*En-tête*/
+header {
+	padding-top: 15vh;
+	
+	height : auto;
+	text-align : center;
+}
+#titre {
+	font-size : 6vh;
+	font-family: 'Limelight', cursive;
+	font-style: italic;
+	color: white;
+	padding-bottom: 2vh;
+}
+#titre.row{
+	margin-bottom: 8vh;
+}
+#btn_inscription{
+	font-size: 2.3vh;
+	font-family: 'Limelight', cursive;
+	height: auto;
+	width: 25%;
+	margin: auto;
+	margin-bottom: 10vh;
+	padding: 0.5vh 1vh 0.5vh 1vh;
+	border: 0.25vh solid #474440;
+	border-radius: 6px;
+	background-color:   #354033  ;	
+	transition: transform 400ms ease-in-out;
+	transform-origin: bottom;
+	opacity: 0.8;
+}
+#inscr_header a {
+	text-decoration: none;	
+	color: white;
+}
+#btn_inscription:hover {
+	color : white; 
+	opacity:1;
+	transform: scale(1.4, 1.1);
+}
+	/*Menu*/
+.navbar {
+  	margin-bottom: 20vh;
+  	border: 1px solid transparent;
+  	border-radius: 6px;
+  	font-family: "Limelight";
+  	text-align: center;
+  	top:0 ;
+  	left: 0;	
+}
+.navbar-nav {
+	z-index: 9999;
+}
+	/*Sections*/
+		/*Festival*/
+#festival {
+	background-color: #f7e3de ;
+	margin-bottom: 1vh;
+	border-radius: 6px;
+	line-height: 5vh;
+}
+#lien_inscription {
+	text-decoration: none;
+	color : black;
+}
+#lien_inscription:hover {
+	color: #af040c;
+}
+.fas {
+	margin-left: 1vh;
+	margin-right: 1vh;
+}
+		/*Carousel*/
+#carousel h2 {
+	text-align: center;
+}
+#carousel {
+	background-color: #f7e3de ;
+	padding-bottom: 1.3vh;
+	border-radius: 6px;
+	margin-bottom: 1vh;
+}
+.carousel-item {
+	text-align: center;
+}
+.carousel-indicators li {
+width: 10px;
+height: 10px;
+border-radius: 100%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: black;
+}
+		/*Actus*/
+#actus{
+	padding-top: 20vh;
+	margin-top: -20vh;
+	background-color: white    ;
+	border-radius: 6px;
+	padding-left: 1.3vh;
+}
+#actus h2{
+	text-align: center;
+}
+#actus a {
+ 	text-decoration: none; 
+ 	color: #af040c;
+}
+#page_actus{
+ 	background-color: #f7e3de ;
+	border-radius: 6px;
+	padding-left: 2.6vh;
+	padding-right: 2.6vh;
+}
+.p_actu{
+	transition: transform 400ms ease-in-out;
+	line-height: 4vh;
+	padding-bottom: 14px;
+	border-radius: 6px;
+}
+.p_actu:hover {
+	transform: scale(1.05);
+	background-color:  #f2c4b8;
+}
+		/*Les films*/
+.p_les_films {
+	transition: transform 400ms ease-in-out;
+	margin-bottom: 1vh;
+	border-radius: 10px;
+	line-height: 4vh;
+	text-align: justify;
+}
+.p_les_films:hover {
+	transform: scale(1.05);
+	background-color:  #f2c4b8 ;
+	border : none;
+}	
+.les_films_img {
+	max-width : 15%;
+	height: 30%;
+}
+#les_films h2 {
+	width: 100%;
+}
+#les_films {
+	 background-color: #f7e3de;
+	 padding-right: 2.6vh;
+	 padding-left: 2.6vh;
+	 padding-bottom: 2.6vh;
+}
+ 		/*Informations pratiques*/
+#infos {
+	background-color: #f7e3de ;
+	border-radius: 6px;
+	padding-right: 2.6vh;
+	padding-left: 2.6vh;
+	line-height: 4vh;	
+}
+#map{
+	width: 70%;
+	height: auto;
+	margin-top: 2vh;
+	margin-left: 15vh;
+	margin-bottom: 5vh;
+}
+		/* Inscription*/
+
+#formulaire {
+ 	background-color: #f7e3de;
+	padding-bottom: 5vh;
+	border-radius: 6px;
+}
+legend {
+	text-align: center ; 
+	padding-top: 2.61vh;
+	padding-bottom: 2.61vh;
+}
+#bloc_email {
+	padding-bottom: 3.5vh;
+}
+#nb_inscrits {
+	width: 40px;
+	height: 30px;
+}
+.form-group input {
+	border-radius: 1000px;
+	transition: background-color 500ms;
+}
+.form-control:focus {
+	border : 2px solid black;
+	background-color: lightblue;
+}
+#email:not(:focus):invalid{
+	background-color: red;
+}
+.custom-control{
+	line-height: 3vh;
+}
+		/*Section contacts*/
+#contact {
+	background-color: #f7e3de;
+	padding-left: 1.5vh;
+	border-radius: 6px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+#contact h2 {
+	text-align: center;
+	width:100%;
+}
+.contact_h {
+	font-style: italic;
+	font-weight: bold;
+	border: 5px outset #af040c;
+	border-radius: 10px;
+	padding-top: 2vh;
+}
+#contact form {
+	margin-top: 4vh;
+	padding-bottom: 4vh;
+}
+form h5 {
+	text-align: center;
+}
+	/*Footer*/
+footer{
+	background-color:  #f7e3de ;
+	border-radius : 6px;
+	padding-bottom: 1vh;
+}
+#mentions_footer {
+	text-align: right;
+	padding-top: 1vh;
+}
+.fa-twitter-square {
+	color: #00acee;
+}
+.fa-facebook-square {
+	color : #3b5998 ;
+	padding-left: 2vh;
+}
+
+/*Page mentions légales*/
+
+#mentions{
+	background-color: #f7e3de;
+}
+#mentions p {
+	text-align: justify;
+}
+
+	/*Media queries*/
+	/*Tablettes - Smartphones*/
+@media (max-width: 992px) {
+	.row{
+		margin-right: 5px;
+		margin-left: 5px;	
+	}
+	#btn_inscription{
+		width: 50%;
+	}
+	#festival {
+		line-height: 3vh;
+	}
+	#page_actus {
+		padding-left: 0.2vh;
+		padding-right: 0.2vh;
+	}
+	.p_actu{
+		line-height: 3vh;
+	}
+	.les_films_img {
+		max-width : 50%;
+		height: 30%;
+	}
+	.off_xs {
+		display: none;
+	}
+	.contact_h {
+		margin-bottom: 2vh;
+	}
+	#les_films {
+		line-height: 3.8vh;
+		padding-left: 0.2vh;
+		padding-right: 0.2vh;
+	}
+	.p_les_films{
+		margin-bottom: 2.5vh;
+	}
+	#map {
+		margin-left: 5vh;
+		padding-top: 8vh;
+		width: 85%;
+	}
+}	
+	/*Uniquement smartphone*/
+@media(max-width: 767px) {
+	#mentions_footer {
+		text-align: left;
+	}
+	#map {
+		margin-left: 2vh;
+		margin-top: 0vh;
+		padding-top: 0vh;
+		
+	}
+} 
+	/*Ordinateurs*/
+@media(min-width:992px){
+	.shown_xs {
+		display: none;
+	}
+	.hidden_xs{
+		display: block!important;
+	}
+	#les_films p {
+	text-align: justify;
+	line-height: 4vh;
+	}
+}
